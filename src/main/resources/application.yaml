@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: miningbot
+
+  datasource:
+    url: jdbc:sqlite:./data/mining-bot.db
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8080
+
+telegram:
+  bot-token: ${TELEGRAM_BOT_TOKEN:}
+  chat-id: ${TELEGRAM_CHAT_ID:}
+
+app:
+  discovery:
+    internal-ms: 3600000
+
+logging:
+  level:
+    com.miningbot: INFO
