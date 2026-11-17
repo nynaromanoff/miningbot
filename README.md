@@ -1,5 +1,5 @@
 
-# Price Hunter
+# Garimpo Bot
 
 Bot pessoal de monitoramento de preços desenvolvido com Java 21 e Spring Boot.
 
